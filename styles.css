@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 52px;
+    width: 105px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 32px;
+    border-bottom: 1px solid #434242;
+}
+
+.search-bar > img {
+    width: 18px;
+    height: auto;
+}
+
+.search-bar > p {
+    width: 292px;
+    margin-left: 10px;
+}
+
+.nav-search-title {
+    color: rgba(46, 45, 45, 0.637);
+    font-weight: lighter;
+}
+
+.nav-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-dropdown > p {
+    margin: 0px;
+    color: rgba(46, 45, 45, 0.781);
+    font-weight: bold;
+}
+
+.dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+#nav-glass {
+    fill:#222222;
+}
