@@ -3,6 +3,12 @@ body {
     padding: 0px;
 }
 
+#main-nav {
+    display: flex;
+    border-bottom: 1px solid #43424246;
+    align-items: center;
+}
+
 .nav-left {
     display: flex;
     align-items: center;
@@ -53,6 +59,34 @@ body {
     transform: rotate(180deg);
 }
 
-#nav-glass {
-    fill:#222222;
+#nav-glass, #heart-svg, #Icon-Set-Filled, #person-svg {
+    fill:#434242;
+}
+
+#nav-right {
+    display: flex;
+    margin-left: auto;
+    width: 519.72px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+
+#nav-right div {
+    width: fit-content;
+    border: 1px solid black;
+}
+
+.nav-right-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-right-item > p {
+    margin: 0px;
+}
+
+#SVGRepo_iconCarrier {
+    stroke: #434242;
 }
