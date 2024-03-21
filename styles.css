@@ -72,62 +72,6 @@ body {
     transition-duration: 0.2s;
 }
 
-
-
-/* 
-
-#nav-main-bar:hover > p {
-    color: #e60012;
-    transition-duration: 0.2s;
-}
-
-.colorFiller {
-    fill: #e60012;
-}
-
-.search-bar {
-    display: flex;
-    align-items: center;
-    width: 310px;
-    height: 32px;
-    border-bottom: 1px solid #434242;
-}
-
-.search-bar > img {
-    width: 18px;
-    height: auto;
-}
-
-.search-bar > p {
-    width: 292px;
-    margin-left: 10px;
-}
-
-.nav-search-title {
-    color: rgba(46, 45, 45, 0.637);
-    font-weight: lighter;
-}
-
-.nav-dropdown {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    width: 140px;
-    border-bottom: 1px solid #434242;
-    padding-left: 5px;
-}
-
-.nav-dropdown > p {
-    margin: 0px;
-    color: rgba(46, 45, 45, 0.781);
-    font-weight: bold;
-}
-
-.nav-dropdown:hover > p {
-    color: #e60012;
-    transition-duration: 0.2s;
-} */
-
 .dropdown-arrow {
     transform: rotate(180deg);
 }
@@ -150,6 +94,9 @@ body {
     margin: 0px;
 }
 
-#SVGRepo_iconCarrier {
-    stroke: #434242;
+.nav-right-item:hover > p {
+    cursor: pointer;
+    color: #e60012;
+    transition-duration: 0.2s;
 }
+
