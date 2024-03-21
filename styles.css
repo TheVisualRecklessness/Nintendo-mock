@@ -3,6 +3,11 @@ body {
     padding: 0px;
 }
 
+.logo {
+    height: 52px;
+    width: 105px;
+}
+
 #main-nav {
     display: flex;
     border-bottom: 1px solid #43424246;
@@ -12,18 +17,78 @@ body {
 .nav-left {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 14px;
 }
 
-.logo {
-    height: 52px;
-    width: 105px;
+#search-container {
+    width: 450px;
+    display: flex;
+    border-bottom: 1px solid #434242;
+    align-items: center;
+    height: 34px;
 }
 
 .search-bar {
     display: flex;
     align-items: center;
-    width: 450px;
+    gap: 10px;
+    width: 310px;
+    height: 21px;
+}
+
+.search-bar > p {
+    color: rgba(46, 45, 45, 0.637);
+    font-weight: lighter;
+}
+
+.nav-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 140px;
+    height: 23.59px;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.nav-dropdown > p {
+    color: rgba(46, 45, 45, 0.781);
+    font-weight: bold;
+}
+
+#search-container:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #e60012;
+    transition: 0.2s;
+}
+
+.search-bar:hover > p {
+    color: #e60012;
+    transition-duration: 0.2s;
+}
+
+.nav-dropdown:hover > p {
+    color: #e60012;
+    transition-duration: 0.2s;
+}
+
+
+
+/* 
+
+#nav-main-bar:hover > p {
+    color: #e60012;
+    transition-duration: 0.2s;
+}
+
+.colorFiller {
+    fill: #e60012;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 310px;
     height: 32px;
     border-bottom: 1px solid #434242;
 }
@@ -47,6 +112,9 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    width: 140px;
+    border-bottom: 1px solid #434242;
+    padding-left: 5px;
 }
 
 .nav-dropdown > p {
@@ -55,25 +123,20 @@ body {
     font-weight: bold;
 }
 
+.nav-dropdown:hover > p {
+    color: #e60012;
+    transition-duration: 0.2s;
+} */
+
 .dropdown-arrow {
     transform: rotate(180deg);
-}
-
-#nav-glass, #heart-svg, #Icon-Set-Filled, #person-svg {
-    fill:#434242;
 }
 
 #nav-right {
     display: flex;
     margin-left: auto;
     width: 519.72px;
-    border: 1px solid black;
     justify-content: space-evenly;
-}
-
-#nav-right div {
-    width: fit-content;
-    border: 1px solid black;
 }
 
 .nav-right-item {
